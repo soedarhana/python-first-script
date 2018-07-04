@@ -3,9 +3,13 @@ Script dasar python
 
 
 message = 'Hello Dilan'
+
 ngaran = 'IIK SUDARHANA'
+
 umur = 3
+
 berat_badan = 50.5
+
 
 print(message)
 print(ngaran)
@@ -37,23 +41,37 @@ while umur > 0:
 
 
 nama_buah=["semangka", "jeruk", "anggur", "melon"]
+
 print(nama_buah)
+
 nama_buah.append("pisang")
+
 nama_buah.append("ceri")
+
 print(nama_buah)
 
 for dn in  nama_buah:
     print("Nama buah %s, Ada juga %s wkwkwkw" % (dn, ngaran))
 
 human = {}
+
 human['nama'] = " Bowo"
+
 human['jekel'] = "Laki laki"
+
 human['status'] = "Bujangan"
-print(human)
-human['nama'] = "Bowo tik tok"
-print(human)
-human['alamat'] = "JakMania"
+
 print(human)
 
+human['nama'] = "Bowo tik tok"
+
+print(human)
+
+human['alamat'] = "JakMania"
+
+print(human)
+
+
 import json
+
 print(json.dumps(human))
