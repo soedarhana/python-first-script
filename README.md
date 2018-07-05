@@ -1,5 +1,5 @@
 # python-first-script
-Script dasar python
+
 
 ## Mengggunakan GIT dengan Command line
 - Buat  SSH key
